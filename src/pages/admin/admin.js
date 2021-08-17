@@ -12,6 +12,9 @@ const Admin = (props) => {
   return (
     <AdminLayout >
       <WrapperApp>
+        <div className="header-app">
+          <h1>Welcome to the payment system</h1>
+        </div>
         <AllEmployees {...props}/>
       </WrapperApp>
     </AdminLayout>

@@ -1,0 +1,6 @@
+.header-app{
+    display: flex;
+    justify-content: center;
+    color: #716a71;
+    text-transform: capitalize;
+}
