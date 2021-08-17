@@ -1,0 +1,47 @@
+/* header table */
+.header{
+    padding: 8px 16px;
+}
+
+.headerrcell-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.headerrcell-container-firstchild{
+    justify-content: start;
+}
+
+.wrap-icon-header-table{
+    width: 20px;
+}
+
+/* footer */
+.footer-container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-container button{
+    margin: 5px;
+    padding: 10px;
+    font: italic bold 14px/30px Georgia, serif;
+    border-radius: 3%;
+}
+
+.footer-container > .cancel{
+    background: #f50057;
+    border: none;
+    color: white;
+}
+
+.footer-container > .payment{
+    background: transparent;
+    border: 1px solid #f50057;
+    color: #f50057
+
+}

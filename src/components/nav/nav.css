@@ -1,0 +1,26 @@
+.nav-bar{
+    background: #000000;
+    height: 6vh;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.logo{
+    width: 70px;
+    height: 40px;
+    margin: auto auto;
+}
+
+.logo-name{
+    margin: auto auto;
+    color: #b58bb4;
+    font: italic bold 14px/30px Georgia, serif;
+}
